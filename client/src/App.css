@@ -1,0 +1,259 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.hero-img{
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.head-img{
+  height: 90px;
+  border-radius: 50%;
+}
+.back-img{
+  background-size: contain;
+  width: 100%;
+}
+.logo-image{
+  height: 70px;
+}
+.header{
+  
+    background-color: pink;
+  height: 100px; 
+  /* position: relative */
+}
+.navbar{
+  height: 80px;
+  width: 84%;
+  color: white;
+ background-color: palevioletred;
+  border-radius: 40px;
+  position: absolute;
+  top: -50px;
+  z-index: 991;
+  line-height: 80px;
+  display: inline;
+}
+.nav-link{
+  text-decoration: none;
+}
+
+.home{
+  position: relative;
+  top: -90px;
+}
+.nav-h1{
+ justify-content: baseline;
+}
+.section-two{
+  background-color: green;
+}
+/* Home About Css....................................Start */
+
+.home-heading{
+  /* color: rgb(193, 47, 95); */
+  color: #eb134d;
+  font-size: 55px;
+  font-family: cursive;
+}
+.home-about-img{
+  height: 300px;
+  border-radius: 40px;
+  animation-duration: 10s;
+  position: relative;
+  animation-iteration-count: 3;
+  animation-name: example;
+  transition: transform 8s;
+}
+.home-about-img:hover{
+  border: 1px solid #eb134d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home-abt-card-icon{
+  padding: 5px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #eb134d;
+    border-radius: 50px;
+    align-items: center;
+}
+.home-abt-card-icon:hover{
+   height: 110px;
+    width: 100px;
+    border-radius: 100%;
+    animation: 2s;
+    transition-property: all;
+    transition: width 3s, height 3s;
+    transform: rotate(45deg);
+    transform: scale(1,1);
+}
+.card{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+/* Home About Css....................................End */
+
+
+.container-service{
+  height: auto ;
+  background-color: rgba(255, 237, 221, 0.85);
+}
+.container-child{
+  background-color: white;
+  padding: 40px 40px;
+}
+.choose-btn1{
+  padding: 10px 40px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+.choose-btn2{
+  padding: 10px 45px;
+  font-size: 20px;
+  background-color: rgb(248, 57, 137);
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+.choose-btn3{
+  padding: 10px 40px;
+  font-size: 20px;
+  background-color: orange;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+.tab1-img{
+  border-radius: 40px;
+  height: 350px;
+  width: 78%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tab-container{
+  height: 450px;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* service end */
+
+/* blog start*/
+.blog-img{
+  width: 100%;
+  min-height: 200px;
+}
+.order-img{
+  height: 300px;
+  width: 100%;
+}
+.contact-row{
+  background-color: rgba(255, 237, 221, 0.85);
+}
+.custom-btn{
+  background-color: #cc1b56;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.contact-btn{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/* Main About Page.......................................Start */
+.main-box{
+  height: 600px;
+  background-image: url('./component/image/back-img.jpg');
+  background-size: cover;
+position: relative;
+top: -90px;
+}
+.overlay{
+  height: 600px;
+  width: 100%;
+  background-color: rgba(253, 173, 193, 0.3);
+  display: flex;
+}
+.content{
+    color: black;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.home-btn{
+  padding: 8px 15px;
+  background-color: #eb134d;
+  font-family: cursive;
+  font-size: 18px;
+  border: none;
+  text-decoration: none;
+  color: white;
+}
+.home-btn:hover{
+  background-color: rgb(236, 149, 178);
+  color: black;
+}
+.active{
+  background-color: blue;
+}
+.about-image{
+  height: 400px;
+  width: 100%;
+  border-radius: 40px;
+}
+.team-head{
+  padding: 10px;
+  text-align: center;
+}
+.team-image{
+  height: 250px;
+  border-radius: 200px;
+  border: 5px solid  rgb(235, 19, 77);
+}
+.client-img{
+   height: 120px;
+   border-radius: 120px;
+   border: 5px solid  rgb(235, 19, 77);
+}
+.head-color{
+  font-family: cursive;
+  color: #eb134d;
+  /* letter-spacing: 1px; */
+  font-weight: bold;
+}
+/* Main About Page.......................................End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background-color: pink;
+  height: 200px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
